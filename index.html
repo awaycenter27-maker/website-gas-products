@@ -3,60 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Industrial Gases | Industrial Oxygen & Nitrogen Supply, Kolkata</title>
-  <meta name="description" content="Four decades of industrial oxygen manufacturing and industrial gas supply. Based in Kolkata with three factory locations in West Bengal." />
-  <meta name="theme-color" content="#0a1622" />
+  <title>Devi Gas Products Pvt. Ltd. | Petroleum & Gas Solutions, Kolkata</title>
+  <meta name="description" content="Devi Gas Products Pvt. Ltd. — trusted petroleum and gas products from Kolkata since 2004. Reliable supply, rigorous safety, and dependable service." />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- Reusable SVG symbols -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="logo-mark" viewBox="0 0 40 44">
-      <path d="M20 2 37 11.5v21L20 42 3 32.5v-21Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
-      <path d="M13 15v14M20 11v22M27 15v14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
-    </symbol>
-    <symbol id="arrow" viewBox="0 0 24 24">
-      <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-    <symbol id="arrow-up" viewBox="0 0 24 24">
-      <path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-    <symbol id="plant" viewBox="0 0 320 160">
-      <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round">
-        <path d="M10 150h300"/>
-        <path d="M30 150V90l70-30 70 30v60"/>
-        <path d="M30 90h140M55 150v-36h30v36M110 104h42v14h-42z"/>
-        <path d="M44 150V40M36 46h22M36 54h16"/>
-        <rect x="200" y="50" width="34" height="100" rx="17"/>
-        <rect x="246" y="66" width="28" height="84" rx="14"/>
-        <path d="M217 50V30h43v36M190 100h96M190 124h96M190 100v50M286 100v50"/>
-        <circle cx="217" cy="100" r="4"/><circle cx="260" cy="100" r="4"/>
-      </g>
-    </symbol>
-  </svg>
-
   <!-- ============ HEADER ============ -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#top" class="brand" aria-label="Industrial Gases — home">
-        <svg class="brand__mark"><use href="#logo-mark"/></svg>
-        <span class="brand__text">Industrial Gases<small>Kolkata · West Bengal</small></span>
+      <a href="#top" class="logo" aria-label="Devi Gas Products home">
+        <span class="logo__mark">D</span>
+        <span class="logo__text">Devi Gas<small>Products Pvt. Ltd.</small></span>
       </a>
 
-      <nav class="nav" id="nav" aria-label="Main">
-        <a href="#about">About us</a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
         <a href="#products">Products</a>
-        <a href="#factories">Our factories</a>
-        <a href="#group">Our group</a>
-        <a href="#quote" class="btn btn--primary btn--sm nav__cta">Request a quote <svg class="i"><use href="#arrow-up"/></svg></a>
+        <a href="#quality">Quality</a>
+        <a href="#industries">Industries</a>
+        <a href="#contact" class="btn btn--outline btn--sm">Get a Quote</a>
       </nav>
 
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
@@ -66,249 +39,218 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="hero__grid-bg" aria-hidden="true"></div>
-      <div class="container hero__inner">
-        <div class="hero__copy">
-          <p class="eyebrow eyebrow--light reveal">Established experience · Industrial focus</p>
-          <h1 class="hero__title reveal">
-            Industrial oxygen.<br />
-            <em>Four decades</em> of experience.
-          </h1>
-          <p class="hero__lead reveal">
-            Based in Kolkata, we manufacture industrial oxygen and supply nitrogen and
-            other industrial gases, with three factory locations across West Bengal.
-          </p>
-          <div class="hero__actions reveal">
-            <a href="#quote" class="btn btn--primary">Request a quote <svg class="i"><use href="#arrow-up"/></svg></a>
-            <a href="#products" class="link link--light">Explore our products <svg class="i"><use href="#arrow"/></svg></a>
-          </div>
-        </div>
-
-        <!-- Line-art cylinders -->
-        <div class="hero__art reveal" aria-hidden="true">
-          <svg viewBox="0 0 420 460" class="cylinders">
-            <defs>
-              <linearGradient id="cylFill" x1="0" x2="1">
-                <stop offset="0" stop-color="#9cc9ee" stop-opacity=".02"/>
-                <stop offset=".45" stop-color="#9cc9ee" stop-opacity=".14"/>
-                <stop offset="1" stop-color="#9cc9ee" stop-opacity=".02"/>
-              </linearGradient>
-            </defs>
-            <g fill="url(#cylFill)" stroke="#9cc9ee" stroke-width="1.1">
-              <g class="cyl" style="--d:0s"><rect x="20" y="150" width="62" height="280" rx="31"/><path d="M41 150v-22h20v22M51 128v-14M51 114h16"/><rect x="34" y="330" width="34" height="26" rx="2"/><text x="51" y="348">O₂</text></g>
-              <g class="cyl" style="--d:.4s"><rect x="102" y="110" width="66" height="320" rx="33"/><path d="M125 110V86h20v24M135 86V72M135 72h16"/><rect x="118" y="330" width="34" height="26" rx="2"/><text x="135" y="348">O₂</text></g>
-              <g class="cyl" style="--d:.8s"><rect x="188" y="70" width="70" height="360" rx="35"/><path d="M213 70V46h20v24M223 46V32M223 32h16"/><rect x="206" y="330" width="34" height="26" rx="2"/><text x="223" y="348">O₂</text></g>
-              <g class="cyl" style="--d:1.2s"><rect x="278" y="110" width="66" height="320" rx="33"/><path d="M301 110V86h20v24M311 86V72M311 72h16"/><rect x="294" y="330" width="34" height="26" rx="2"/><text x="311" y="348">N₂</text></g>
-              <g class="cyl" style="--d:1.6s"><rect x="360" y="170" width="46" height="260" rx="23"/><path d="M375 170v-20h16v20M383 150v-12"/></g>
-            </g>
-            <path d="M0 440h420" stroke="#9cc9ee" stroke-opacity=".4"/>
-          </svg>
-          <span class="hero__tag">O₂ / N₂ — Industrial grade</span>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="eyebrow reveal">Kolkata · Since 2004</p>
+        <h1 class="hero__title reveal">
+          Energy you can<br /><em>depend on.</em>
+        </h1>
+        <p class="hero__lead reveal">
+          <!-- REPLACE: one-line company positioning -->
+          Devi Gas Products supplies quality petroleum and gas products to homes,
+          businesses and industry across Eastern India — delivered safely, on time, every time.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#products" class="btn btn--gold">Explore Products</a>
+          <a href="#contact" class="btn btn--ghost">Talk to Us →</a>
         </div>
       </div>
-    </section>
 
-    <!-- ============ STATS ============ -->
-    <section class="stats" aria-label="Key figures">
-      <div class="container stats__grid">
-        <div class="stat reveal">
-          <p class="stat__num"><span data-count="40">0</span><sup>yrs</sup></p>
-          <p class="stat__label">Of industry experience</p>
-        </div>
-        <div class="stat reveal">
-          <p class="stat__num"><span data-count="3" data-pad="2">00</span></p>
-          <p class="stat__label">Factory locations in West Bengal</p>
-        </div>
-        <div class="stat reveal">
-          <p class="stat__num"><span data-count="3" data-pad="2">00</span></p>
-          <p class="stat__label">Owned group companies</p>
-        </div>
-        <div class="stat stat--note reveal">
-          <p>Oxygen manufacturing.<br />Industrial gas supply.<br /><strong>A focused business.</strong></p>
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat"><span class="stat__num">2004</span><span class="stat__label">Established</span></div>
+          <div class="stat"><span class="stat__num">20+</span><span class="stat__label">Years of Service</span></div>
+          <!-- REPLACE: real figures -->
+          <div class="stat"><span class="stat__num" data-count="500">0</span><span class="stat__num-suffix">+</span><span class="stat__label">Clients Served</span></div>
+          <div class="stat"><span class="stat__num">24/7</span><span class="stat__label">Supply Support</span></div>
         </div>
       </div>
     </section>
 
     <!-- ============ ABOUT ============ -->
-    <section class="section" id="about">
-      <div class="container split">
-        <div>
-          <p class="eyebrow reveal">Our business</p>
-          <h2 class="title reveal">Experience that <em>understands</em> industry.</h2>
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__visual reveal" aria-hidden="true">
+          <div class="about__frame">
+            <span class="about__year">2004</span>
+            <span class="about__caption">Two decades of trusted supply</span>
+          </div>
         </div>
-        <div class="split__body">
-          <p class="lead reveal">Four decades in industrial gases. A Kolkata base. A three-factory presence in West Bengal.</p>
+        <div class="about__text">
+          <p class="eyebrow reveal">About Us</p>
+          <h2 class="section__title reveal">A legacy built on safety, reliability and trust.</h2>
+          <!-- REPLACE: company story -->
           <p class="reveal">
-            We bring our experience to industrial oxygen manufacturing and the supply of
-            nitrogen and other industrial gases. Our business is built around understanding
-            what industrial buyers need — and delivering it reliably.
+            Founded in Kolkata in 2004, Devi Gas Products Pvt. Ltd. has grown into a dependable
+            name in petroleum and gas products. We combine rigorous safety standards with
+            responsive, personal service — so our customers never have to think twice about supply.
           </p>
-          <ul class="pillars reveal">
-            <li><span>01</span>Manufacturing expertise</li>
-            <li><span>02</span>Dependable supply</li>
-            <li><span>03</span>Regional reach</li>
+          <p class="reveal">
+            From households to large industrial facilities, we treat every delivery with the same
+            care, precision and accountability.
+          </p>
+          <ul class="checklist reveal">
+            <li>Strict safety and handling protocols</li>
+            <li>Consistent quality, batch after batch</li>
+            <li>Transparent pricing and documentation</li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- ============ PRODUCTS ============ -->
-    <section class="section section--tint" id="products">
+    <section class="section products" id="products">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow reveal">Our products</p>
-            <h2 class="title reveal">Essential gases.<br /><em>A clear focus.</em></h2>
-          </div>
-          <p class="section-head__aside reveal">What we manufacture. What we supply. Find the right starting point for your enquiry.</p>
+        <div class="section__head">
+          <p class="eyebrow reveal">What We Offer</p>
+          <h2 class="section__title reveal">Products & Services</h2>
+          <p class="section__sub reveal">Engineered for performance. Delivered with care.</p>
         </div>
 
-        <div class="products">
-          <article class="product product--featured reveal">
-            <header class="product__top">
-              <span class="mono">01 / Industrial gases</span>
-              <span class="badge badge--solid">Manufactured by us</span>
-            </header>
-            <p class="product__formula">O<sub>2</sub></p>
-            <h3>Industrial oxygen</h3>
-            <p>Industrial oxygen manufacturing, backed by four decades of experience.</p>
-            <a href="#quote" class="product__link" data-gas="Industrial oxygen">Enquire about this gas <svg class="i"><use href="#arrow"/></svg></a>
+        <!-- REPLACE: real product names & descriptions -->
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M8 3h8v3H8zM6 6h12a1 1 0 0 1 1 1v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a1 1 0 0 1 1-1z"/></svg>
+            </div>
+            <h3>LPG Cylinders</h3>
+            <p>Domestic and commercial cylinders in multiple capacities, filled and tested to standard.</p>
+            <a href="#contact" class="card__link">Enquire →</a>
           </article>
 
-          <article class="product reveal">
-            <header class="product__top">
-              <span class="mono">02 / Industrial gases</span>
-              <span class="badge">Supplied by us</span>
-            </header>
-            <p class="product__formula">N<sub>2</sub></p>
-            <h3>Nitrogen</h3>
-            <p>Nitrogen supply for industrial buyers. Share your requirements with us.</p>
-            <a href="#quote" class="product__link" data-gas="Nitrogen">Enquire about this gas <svg class="i"><use href="#arrow"/></svg></a>
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 17h13V8h3l2 4v5h-2M3 17V6h13M7 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+            </div>
+            <h3>Bulk Supply</h3>
+            <p>Scheduled bulk deliveries for factories, hotels and institutions with dedicated logistics.</p>
+            <a href="#contact" class="card__link">Enquire →</a>
           </article>
 
-          <article class="product reveal">
-            <header class="product__top">
-              <span class="mono">03 / Industrial gases</span>
-              <span class="badge">Enquire for availability</span>
-            </header>
-            <p class="product__formula product__formula--plus">+</p>
-            <h3>Other industrial gases</h3>
-            <p>Tell us the gas you need. Our team will confirm availability.</p>
-            <a href="#quote" class="product__link" data-gas="Other industrial gas">Enquire about this gas <svg class="i"><use href="#arrow"/></svg></a>
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg>
+            </div>
+            <h3>Industrial Gases</h3>
+            <p>High-purity gases for manufacturing, fabrication and processing applications.</p>
+            <a href="#contact" class="card__link">Enquire →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-2.5z"/></svg>
+            </div>
+            <h3>Installation & Safety</h3>
+            <p>Professional installation, pipeline set-up and periodic safety inspections.</p>
+            <a href="#contact" class="card__link">Enquire →</a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ============ FACTORIES ============ -->
-    <section class="section" id="factories">
+    <!-- ============ QUALITY / PROCESS ============ -->
+    <section class="section quality" id="quality">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow reveal">Our factory network</p>
-            <h2 class="title reveal">Three locations.<br /><em>One industrial focus.</em></h2>
-          </div>
-          <p class="section-head__aside reveal">Our factory presence across Howrah, Junglepur and Durgapur, West Bengal.</p>
+        <div class="section__head section__head--light">
+          <p class="eyebrow reveal">Our Standard</p>
+          <h2 class="section__title reveal">Quality at every step</h2>
         </div>
-
-        <div class="factories">
-          <article class="factory reveal">
-            <div class="factory__art"><span class="mono">01</span><svg><use href="#plant"/></svg></div>
-            <div class="factory__body">
-              <p class="mono mono--muted">West Bengal</p>
-              <h3>Howrah</h3>
-              <a href="#quote" class="product__link" data-location="Howrah">Enquire about this location <svg class="i"><use href="#arrow"/></svg></a>
-            </div>
-          </article>
-          <article class="factory reveal">
-            <div class="factory__art"><span class="mono">02</span><svg><use href="#plant"/></svg></div>
-            <div class="factory__body">
-              <p class="mono mono--muted">Howrah · West Bengal</p>
-              <h3>Junglepur</h3>
-              <a href="#quote" class="product__link" data-location="Junglepur">Enquire about this location <svg class="i"><use href="#arrow"/></svg></a>
-            </div>
-          </article>
-          <article class="factory reveal">
-            <div class="factory__art"><span class="mono">03</span><svg><use href="#plant"/></svg></div>
-            <div class="factory__body">
-              <p class="mono mono--muted">West Bengal</p>
-              <h3>Durgapur</h3>
-              <a href="#quote" class="product__link" data-location="Durgapur">Enquire about this location <svg class="i"><use href="#arrow"/></svg></a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ GROUP ============ -->
-    <section class="section section--dark" id="group">
-      <div class="container split">
-        <div>
-          <p class="eyebrow eyebrow--light reveal">Our group companies</p>
-          <h2 class="title reveal">Three companies.<br /><em>Shared experience.</em></h2>
-          <p class="group__intro reveal">
-            Our owned group companies operate in the industrial gases business under the
-            leadership of <strong>Mr. Anirudh Jalan</strong>.
-          </p>
-        </div>
-        <ol class="group-list">
-          <li class="reveal"><span class="mono">01</span><h3>Devi Gas Products Private Limited</h3><svg class="i"><use href="#arrow-up"/></svg></li>
-          <li class="reveal"><span class="mono">02</span><h3>Prestige Properties Pvt Ltd</h3><svg class="i"><use href="#arrow-up"/></svg></li>
-          <li class="reveal"><span class="mono">03</span><h3>Rajasthan Fertilisers &amp; Chemicals Corporation Ltd</h3><svg class="i"><use href="#arrow-up"/></svg></li>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Sourcing</h3>
+            <p>Products sourced only from approved, certified suppliers.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Testing</h3>
+            <p>Every cylinder and batch checked for purity, pressure and leaks.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Safe Handling</h3>
+            <p>Trained staff and compliant storage at every facility.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Delivery</h3>
+            <p>Tracked, on-time delivery with full documentation.</p>
+          </li>
         </ol>
       </div>
     </section>
 
-    <!-- ============ QUOTE ============ -->
-    <section class="section quote" id="quote">
-      <div class="container quote__grid">
-        <div>
-          <p class="eyebrow reveal">Let's talk requirements</p>
-          <h2 class="title reveal">Your next gas requirement.<br /><em>Let's discuss it.</em></h2>
-          <p class="reveal quote__sub">Tell us what you need, how much you need and where you need it.</p>
+    <!-- ============ INDUSTRIES ============ -->
+    <section class="section industries" id="industries">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Who We Serve</p>
+          <h2 class="section__title reveal">Trusted across industries</h2>
+        </div>
+        <div class="tags reveal">
+          <span>Households</span><span>Hotels & Restaurants</span><span>Manufacturing</span>
+          <span>Hospitals</span><span>Institutions</span><span>Fabrication</span>
+          <span>Food Processing</span><span>Commercial Kitchens</span>
+        </div>
+      </div>
+    </section>
 
-          <dl class="contact reveal">
-            <div><dt>Office</dt><dd>8 BBD Bag East, Kolkata<br />West Bengal 700014</dd></div>
-            <!-- REPLACE: confirm email & add phone -->
-            <div><dt>Email</dt><dd><a href="mailto:devigas2004@gmail.com">devigas2004@gmail.com</a></dd></div>
-            <div><dt>Phone</dt><dd><a href="tel:+910000000000">+91 00000 00000</a></dd></div>
-          </dl>
+    <!-- ============ CTA BAND ============ -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <h2>Need a reliable supply partner?</h2>
+        <a href="#contact" class="btn btn--gold">Request a Quote</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div>
+          <p class="eyebrow reveal">Contact</p>
+          <h2 class="section__title reveal">Let's talk.</h2>
+          <p class="reveal">Tell us what you need and our team will respond within one business day.</p>
+
+          <div class="contact__info reveal">
+            <div>
+              <h4>Office</h4>
+              <p>8 BBD Bag East<br />Kolkata, West Bengal 700014</p>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <!-- REPLACE -->
+              <p><a href="tel:+910000000000">+91 00000 00000</a></p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <!-- REPLACE -->
+              <p><a href="mailto:info@devigasproducts.com">info@devigasproducts.com</a></p>
+            </div>
+          </div>
         </div>
 
-        <!-- REPLACE: create a free form at formspree.io and paste the ID -->
-        <form class="form reveal" id="quoteForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-          <fieldset>
-            <legend class="mono">01 — What you need</legend>
-            <div class="chips" role="radiogroup">
-              <label><input type="radio" name="gas" value="Industrial oxygen" checked /><span>Oxygen</span></label>
-              <label><input type="radio" name="gas" value="Nitrogen" /><span>Nitrogen</span></label>
-              <label><input type="radio" name="gas" value="Other industrial gas" /><span>Other</span></label>
-            </div>
-          </fieldset>
-
-          <fieldset>
-            <legend class="mono">02 — How much & where</legend>
-            <div class="form__row">
-              <label class="field"><input type="text" name="quantity" placeholder=" " /><span>Approx. quantity</span></label>
-              <label class="field"><input type="text" name="delivery_location" id="locationField" placeholder=" " /><span>Delivery location</span></label>
-            </div>
-          </fieldset>
-
-          <fieldset>
-            <legend class="mono">03 — Your details</legend>
-            <div class="form__row">
-              <label class="field"><input type="text" name="name" placeholder=" " required /><span>Name *</span></label>
-              <label class="field"><input type="text" name="company" placeholder=" " /><span>Company</span></label>
-            </div>
-            <div class="form__row">
-              <label class="field"><input type="email" name="email" placeholder=" " required /><span>Email *</span></label>
-              <label class="field"><input type="tel" name="phone" placeholder=" " required /><span>Phone *</span></label>
-            </div>
-            <label class="field"><textarea name="message" rows="3" placeholder=" "></textarea><span>Anything else?</span></label>
-          </fieldset>
-
-          <button type="submit" class="btn btn--primary btn--full">Request a quote <svg class="i"><use href="#arrow-up"/></svg></button>
-          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        <!-- REPLACE: get a free form ID at formspree.io and paste it below -->
+        <form class="form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form__row">
+            <label>Name<input type="text" name="name" required /></label>
+            <label>Company<input type="text" name="company" /></label>
+          </div>
+          <div class="form__row">
+            <label>Email<input type="email" name="email" required /></label>
+            <label>Phone<input type="tel" name="phone" /></label>
+          </div>
+          <label>Requirement
+            <select name="requirement">
+              <option>LPG Cylinders</option>
+              <option>Bulk Supply</option>
+              <option>Industrial Gases</option>
+              <option>Installation & Safety</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn--gold btn--full">Send Enquiry</button>
+          <p class="form__status" id="formStatus" role="status"></p>
         </form>
       </div>
     </section>
@@ -316,38 +258,16 @@
 
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer__grid">
-        <div>
-          <a href="#top" class="brand brand--light">
-            <svg class="brand__mark"><use href="#logo-mark"/></svg>
-            <span class="brand__text">Industrial Gases<small>Kolkata · West Bengal</small></span>
-          </a>
-          <p class="footer__blurb">Four decades of experience in industrial oxygen manufacturing and industrial gas supply.</p>
-        </div>
-        <div>
-          <p class="mono footer__label">Explore</p>
-          <ul>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#products">Our products</a></li>
-            <li><a href="#group">Our group companies</a></li>
-            <li><a href="#quote">Contact us</a></li>
-          </ul>
-        </div>
-        <div>
-          <p class="mono footer__label">Our factory network</p>
-          <ul>
-            <li>Howrah</li>
-            <li>Junglepur, Howrah</li>
-            <li>Durgapur</li>
-          </ul>
-          <p class="footer__small">Based in Kolkata, West Bengal</p>
-        </div>
+    <div class="container footer__inner">
+      <div class="logo logo--footer">
+        <span class="logo__mark">D</span>
+        <span class="logo__text">Devi Gas<small>Products Pvt. Ltd.</small></span>
       </div>
-      <div class="footer__bottom">
-        <p>© <span id="year"></span> Devi Gas Products Private Limited. All rights reserved.</p>
-        <a href="#top" class="mono">Back to top ↑</a>
-      </div>
+      <nav class="footer__nav">
+        <a href="#about">About</a><a href="#products">Products</a>
+        <a href="#quality">Quality</a><a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Devi Gas Products Pvt. Ltd. All rights reserved.</p>
     </div>
   </footer>
 
